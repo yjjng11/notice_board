@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <% include ./partials/head %>
+  </head>
+  <body>
+    <% include ./partials/nav %>
+
+    <div class="container file">
+      <table class="table table-bordered" id="file_menu">
+        <tbody>
+          <tr>
+            <td class="file1">
+              <a href="/files/0">테스트 음악</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <form action="/files/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="uploadFile"/>
+        <input type="submit" value="저장"/>
+      </form>
+    </div>
+  </body>
+</html>

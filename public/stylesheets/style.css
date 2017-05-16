@@ -1,0 +1,31 @@
+.home h1{
+ color: darkseagreen;
+}
+
+.buttons form{
+  display: inline-block;
+}
+
+.post h2{
+  color: tomato;
+  text-align: center;
+}
+.post .post-body{
+  white-space: pre-line;
+}
+.post .posts .date{
+  width: 200px;
+}
+
+.container{
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+#file_menu{
+  margin-top: 100px
+}
+
+.form-control{
+  width: 25%;
+}

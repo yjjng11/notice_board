@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ../partials/head %>
+  </head>
+  <body>
+    <% include ../partials/nav %>
+
+    <div class="container user user-login">
+      <h1>Login</h1>
+      <form class="post-form form-horizontal" action="/users/login" method="post">
+        <div class="form-group">
+          <label for="inputId">ID</label>
+          <input type="text" class="form-control" id="inputID" name="inputID">
+        </div>
+        <div class="form-group">
+          <label for="inputPassword">Password</label>
+          <input type="password" class="form-control" id="inputPassword" name="inputPassword">
+        </div>
+        <button type="submit" class="btn btn-default">확인</button>
+      </form>
+    </div>
+
+  </body>
+</html>
